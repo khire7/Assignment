@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+}
+
+
+
+.Sedans {
+    background-color: orange;
+}
+
+.Suvs {
+    background-color: rgb(17, 117, 84);
+}
+
+.Luxury{
+    background-color: rgb(4, 59, 41);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: wrap;
+    margin: 70px;
+}
+
+.flex-container > div {
+    color: aliceblue;
+    width: 300px;
+    height: 500px;
+
+}
+
+p{
+   padding: 30px;
+  
+}
+
+h1{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.btn {
+    background-color: inherit;
+    border-radius: 20px;
+    color:white;
+    padding: 10px;
+    border: 1px solid white;
+    margin-top: 30%;
+    margin-left: 30px;
+  
+}
+
+img{
+    margin: 30px;
+}
